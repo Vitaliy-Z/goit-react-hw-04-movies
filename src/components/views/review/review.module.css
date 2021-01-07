@@ -1,0 +1,11 @@
+.list {
+  list-style: none;
+}
+
+.text {
+  font-style: italic;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  text-indent: 10px;
+  line-height: 1.5;
+}

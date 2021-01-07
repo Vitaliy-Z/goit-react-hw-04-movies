@@ -1,0 +1,29 @@
+.title {
+  font-style: italic;
+  font-size: 5ex;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.item {
+  text-align: center;
+  width: calc((100% - 80px) / 4);
+  margin: 10px;
+}
+
+.item:focus,
+.item:hover {
+  transform: scale(1.1);
+}
+
+.titleFilm {
+  text-decoration: none;
+  font-size: 2ex;
+}

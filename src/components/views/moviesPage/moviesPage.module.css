@@ -1,0 +1,63 @@
+.form {
+  text-align: center;
+  padding: 10px;
+}
+
+.label {
+  font-size: 1.4em;
+}
+
+.input {
+  width: 30%;
+  height: 30px;
+  margin-left: 25px;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.input:hover {
+  transform: scale(1.05);
+}
+
+.input:focus {
+  transform: scale(1.1);
+}
+
+.btn {
+  margin-left: 25px;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: large;
+
+  letter-spacing: 2px;
+
+  color: rgba(240, 226, 39, 0.829);
+  background-color: #2196f3;
+  border-radius: 7px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.item {
+  text-align: center;
+  width: calc((100% - 80px) / 4);
+  margin: 10px;
+}
+
+.item:focus,
+.item:hover {
+  transform: scale(1.05);
+}
+
+.titleFilm {
+  text-decoration: none;
+  font-size: 1.5ex;
+}
